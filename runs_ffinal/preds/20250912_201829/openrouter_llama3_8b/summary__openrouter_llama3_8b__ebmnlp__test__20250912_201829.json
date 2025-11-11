@@ -1,0 +1,29 @@
+{
+  "timestamp": "20250912_201829",
+  "tag": "",
+  "model": "openrouter_llama3_8b",
+  "dataset": "ebmnlp",
+  "split": "test",
+  "with_type": true,
+  "rounds": 10,
+  "n_samples": 200,
+  "metrics": {
+    "micro": {
+      "precision": 0.2454160789844852,
+      "recall": 0.5958904109589042,
+      "f1": 0.3476523476523477
+    },
+    "macro": {
+      "f1": 0.32453860028860004
+    }
+  },
+  "avg_token_latency_per_sample": {
+    "in_tokens": 7402.2,
+    "out_tokens": 3318.3,
+    "latency_sec": 55.73514410018921
+  },
+  "paths": {
+    "pred_jsonl": "runs_ffinal/preds/20250912_201829/openrouter_llama3_8b/openrouter_llama3_8b__ebmnlp__test__20250912_201829.jsonl",
+    "summary_json": "runs_ffinal/preds/20250912_201829/openrouter_llama3_8b/summary__openrouter_llama3_8b__ebmnlp__test__20250912_201829.json"
+  }
+}

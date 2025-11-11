@@ -1,0 +1,29 @@
+{
+  "timestamp": "20250912_235004",
+  "tag": "",
+  "model": "openrouter_gptoss20b",
+  "dataset": "naver",
+  "split": "test",
+  "with_type": false,
+  "rounds": 10,
+  "n_samples": 200,
+  "metrics": {
+    "micro": {
+      "precision": 0.6546489563567363,
+      "recall": 0.5730897009966778,
+      "f1": 0.6111603188662534
+    },
+    "macro": {
+      "f1": 0.5513612417853904
+    }
+  },
+  "avg_token_latency_per_sample": {
+    "in_tokens": 6948.345,
+    "out_tokens": 31555.56,
+    "latency_sec": 232.7455537235737
+  },
+  "paths": {
+    "pred_jsonl": "runs_ffinal/preds/20250912_235004/openrouter_gptoss20b/openrouter_gptoss20b__naver__test__20250912_235004.jsonl",
+    "summary_json": "runs_ffinal/preds/20250912_235004/openrouter_gptoss20b/summary__openrouter_gptoss20b__naver__test__20250912_235004.json"
+  }
+}

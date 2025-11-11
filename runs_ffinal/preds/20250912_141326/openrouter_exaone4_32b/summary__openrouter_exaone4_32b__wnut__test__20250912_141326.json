@@ -1,0 +1,29 @@
+{
+  "timestamp": "20250912_141326",
+  "tag": "",
+  "model": "openrouter_exaone4_32b",
+  "dataset": "wnut",
+  "split": "test",
+  "with_type": true,
+  "rounds": 10,
+  "n_samples": 200,
+  "metrics": {
+    "micro": {
+      "precision": 0.4434782608695652,
+      "recall": 0.6710526315789473,
+      "f1": 0.5340314136125653
+    },
+    "macro": {
+      "f1": 0.33795238095238084
+    }
+  },
+  "avg_token_latency_per_sample": {
+    "in_tokens": 6075.37,
+    "out_tokens": 1764.975,
+    "latency_sec": 20.708956086635588
+  },
+  "paths": {
+    "pred_jsonl": "runs_ffinal/preds/20250912_141326/openrouter_exaone4_32b/openrouter_exaone4_32b__wnut__test__20250912_141326.jsonl",
+    "summary_json": "runs_ffinal/preds/20250912_141326/openrouter_exaone4_32b/summary__openrouter_exaone4_32b__wnut__test__20250912_141326.json"
+  }
+}

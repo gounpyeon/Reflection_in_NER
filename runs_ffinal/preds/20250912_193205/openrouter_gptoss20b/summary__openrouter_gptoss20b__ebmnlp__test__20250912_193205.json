@@ -1,0 +1,29 @@
+{
+  "timestamp": "20250912_193205",
+  "tag": "",
+  "model": "openrouter_gptoss20b",
+  "dataset": "ebmnlp",
+  "split": "test",
+  "with_type": false,
+  "rounds": 10,
+  "n_samples": 200,
+  "metrics": {
+    "micro": {
+      "precision": 0.3435804701627486,
+      "recall": 0.6506849315068494,
+      "f1": 0.44970414201183434
+    },
+    "macro": {
+      "f1": 0.41715476190476186
+    }
+  },
+  "avg_token_latency_per_sample": {
+    "in_tokens": 6852.165,
+    "out_tokens": 18728.5,
+    "latency_sec": 130.56679312944414
+  },
+  "paths": {
+    "pred_jsonl": "runs_ffinal/preds/20250912_193205/openrouter_gptoss20b/openrouter_gptoss20b__ebmnlp__test__20250912_193205.jsonl",
+    "summary_json": "runs_ffinal/preds/20250912_193205/openrouter_gptoss20b/summary__openrouter_gptoss20b__ebmnlp__test__20250912_193205.json"
+  }
+}

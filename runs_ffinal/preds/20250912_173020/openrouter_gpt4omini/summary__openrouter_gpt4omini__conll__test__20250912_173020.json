@@ -1,0 +1,29 @@
+{
+  "timestamp": "20250912_173020",
+  "tag": "",
+  "model": "openrouter_gpt4omini",
+  "dataset": "conll",
+  "split": "test",
+  "with_type": true,
+  "rounds": 10,
+  "n_samples": 200,
+  "metrics": {
+    "micro": {
+      "precision": 0.8376623376623377,
+      "recall": 0.7938461538461539,
+      "f1": 0.8151658767772513
+    },
+    "macro": {
+      "f1": 0.5845357142857144
+    }
+  },
+  "avg_token_latency_per_sample": {
+    "in_tokens": 5600.355,
+    "out_tokens": 1829.56,
+    "latency_sec": 51.68854269385338
+  },
+  "paths": {
+    "pred_jsonl": "runs_ffinal/preds/20250912_173020/openrouter_gpt4omini/openrouter_gpt4omini__conll__test__20250912_173020.jsonl",
+    "summary_json": "runs_ffinal/preds/20250912_173020/openrouter_gpt4omini/summary__openrouter_gpt4omini__conll__test__20250912_173020.json"
+  }
+}

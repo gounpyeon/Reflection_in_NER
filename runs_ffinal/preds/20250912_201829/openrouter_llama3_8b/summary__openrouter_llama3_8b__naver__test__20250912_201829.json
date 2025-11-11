@@ -1,0 +1,29 @@
+{
+  "timestamp": "20250912_201829",
+  "tag": "",
+  "model": "openrouter_llama3_8b",
+  "dataset": "naver",
+  "split": "test",
+  "with_type": true,
+  "rounds": 10,
+  "n_samples": 200,
+  "metrics": {
+    "micro": {
+      "precision": 0.17437722419928825,
+      "recall": 0.2441860465116279,
+      "f1": 0.20346020761245673
+    },
+    "macro": {
+      "f1": 0.20883424697937078
+    }
+  },
+  "avg_token_latency_per_sample": {
+    "in_tokens": 8972.03,
+    "out_tokens": 3577.22,
+    "latency_sec": 63.20947824716568
+  },
+  "paths": {
+    "pred_jsonl": "runs_ffinal/preds/20250912_201829/openrouter_llama3_8b/openrouter_llama3_8b__naver__test__20250912_201829.jsonl",
+    "summary_json": "runs_ffinal/preds/20250912_201829/openrouter_llama3_8b/summary__openrouter_llama3_8b__naver__test__20250912_201829.json"
+  }
+}

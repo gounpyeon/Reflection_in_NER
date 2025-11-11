@@ -1,0 +1,29 @@
+{
+  "timestamp": "20250912_190149",
+  "tag": "",
+  "model": "openrouter_gpt4omini",
+  "dataset": "naver",
+  "split": "test",
+  "with_type": true,
+  "rounds": 10,
+  "n_samples": 200,
+  "metrics": {
+    "micro": {
+      "precision": 0.25830258302583026,
+      "recall": 0.23255813953488372,
+      "f1": 0.24475524475524474
+    },
+    "macro": {
+      "f1": 0.20083593243701592
+    }
+  },
+  "avg_token_latency_per_sample": {
+    "in_tokens": 7877.215,
+    "out_tokens": 2175.25,
+    "latency_sec": 57.80384206414223
+  },
+  "paths": {
+    "pred_jsonl": "runs_ffinal/preds/20250912_190149/openrouter_gpt4omini/openrouter_gpt4omini__naver__test__20250912_190149.jsonl",
+    "summary_json": "runs_ffinal/preds/20250912_190149/openrouter_gpt4omini/summary__openrouter_gpt4omini__naver__test__20250912_190149.json"
+  }
+}

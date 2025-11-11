@@ -1,0 +1,29 @@
+{
+  "timestamp": "20250912_235015",
+  "tag": "",
+  "model": "openrouter_nemotron_9b",
+  "dataset": "conll",
+  "split": "test",
+  "with_type": false,
+  "rounds": 10,
+  "n_samples": 200,
+  "metrics": {
+    "micro": {
+      "precision": 0.8010471204188482,
+      "recall": 0.9415384615384615,
+      "f1": 0.8656294200848655
+    },
+    "macro": {
+      "f1": 0.7106699134199136
+    }
+  },
+  "avg_token_latency_per_sample": {
+    "in_tokens": 4788.58,
+    "out_tokens": 14612.515,
+    "latency_sec": 241.5305748164654
+  },
+  "paths": {
+    "pred_jsonl": "runs_ffinal/preds/20250912_235015/openrouter_nemotron_9b/openrouter_nemotron_9b__conll__test__20250912_235015.jsonl",
+    "summary_json": "runs_ffinal/preds/20250912_235015/openrouter_nemotron_9b/summary__openrouter_nemotron_9b__conll__test__20250912_235015.json"
+  }
+}
